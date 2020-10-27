@@ -1,8 +1,14 @@
 class Slider {
     constructor(images){
         this.images = images
-    }
-    initializeSlider() {
+
+        this.UiSelectors = {
+            slide: '[date]'
         
+    }
+
+
+    initializeSlider() {
+
     }
 }
