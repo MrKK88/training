@@ -11,8 +11,28 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    
+    <main class="slider"> 
+
+      <section class="slider__container">
+        <button class="slider__button slider__button--prev"> prev </button>
+        <button class="slider__button slider__button--next"> next </button>
+      </section>
+
+    </main>
+  
     <script src="./js/index.js"></script>
-   
+   <script>
+
+     const imgArr = [
+      './images/1.jpg',
+      './images/2.jpg',
+      './images/3.jpg',
+      './images/4.jpg',
+      './images/5.jpg',
+     ];
+
+     const newSlider = new Slider(imgArr);
+
+   </script>
   </body>
 </html>
